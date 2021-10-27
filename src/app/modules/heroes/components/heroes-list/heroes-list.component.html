@@ -1,0 +1,8 @@
+<header>
+    <span>Name</span>
+    <span>Powers</span>
+    <span>Rating</span>
+</header>
+<section>
+    <app-hero-card [hero]="hero" *ngFor="let hero of Heroes | async"></app-hero-card>
+</section>

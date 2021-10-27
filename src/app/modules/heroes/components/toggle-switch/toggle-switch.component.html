@@ -1,0 +1,9 @@
+<div class="toggler border rounded d-flex align-items-center text-center">
+    <div [class.start]="selectedIndex === 0" [class.end]="selectedIndex === 1" id="fill"></div>
+    <div (click)="toggle(0, 'name')" [class.active]="selectedIndex === 0" class="value">
+        Name
+    </div>
+    <div (click)="toggle(1, 'rating')" [class.active]="selectedIndex === 1" class="value">
+        Rating
+    </div>
+</div>

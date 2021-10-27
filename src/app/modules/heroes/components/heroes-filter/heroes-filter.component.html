@@ -1,0 +1,15 @@
+<section>
+  <h2 (click)="showFilters = !showFilters">Filters
+    <span [class.expanded]="showFilters" class="material-icons">
+      expand_more
+    </span>
+  </h2>
+  <div *ngIf="showFilters" @expandCollapse class="filters">
+    <div class="search-wrapper">
+      <input (input)="search($event)" placeholder="Search..." type="text">
+      <fa-icon id="search" [icon]="faSearch"></fa-icon>
+    </div>
+    <span>Sort By:</span>
+    <app-toggle-switch></app-toggle-switch>
+  </div>
+</section>

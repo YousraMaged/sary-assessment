@@ -1,0 +1,29 @@
+<header>
+    <span class="avatar">
+        <fa-icon [icon]="faMask"></fa-icon>
+    </span>
+    <h2>{{hero?.name}}</h2>
+    <app-rating [hero]="hero" [readonly]="true"></app-rating>
+</header>
+<section>
+    <q>
+        A superhero is a character with extraordinary powers that performs heroic actions. Unlike police, firefighters
+        or doctors, all of whom are heroes in their own right, superheroes are defined by their unique capabilities,
+        such flight, strength, speed or invincibility (to name a few). Superheroes are also expected to act on a strict
+        moral code. They are always categorized as “good” and rarely, if ever, stray from this path. Finally, a
+        superhero needs to be sympathetic. If the audience cannot identify with the character, then the superhero isn’t
+        much of a hero at all.
+    </q>
+    <h3>Superpowers</h3>
+    <ul>
+        <li *ngFor="let power of hero?.superpowers">{{power}}</li>
+    </ul>
+</section>
+<footer>
+    <button routerLink="/" id="back" mat-flat-button>
+        <span class="material-icons">
+            arrow_back
+        </span>
+        Back to Heroes
+    </button>
+</footer>

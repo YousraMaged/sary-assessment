@@ -1,0 +1,12 @@
+<ul>
+    <li>
+        <span *ngFor="let star of stars; let i = index"
+            [class.full]="displayedRating >= i + 1" 
+            (click)="!readonly && rate(i + 1)"
+            (mouseover)="!readonly && displayRating(i + 1)" 
+            (mouseleave)="!readonly && displayRating()"
+            class="material-icons full">
+            bolt
+        </span>
+    </li>
+</ul>

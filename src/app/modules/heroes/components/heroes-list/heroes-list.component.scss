@@ -1,0 +1,9 @@
+header {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  align-items: center;
+  padding: 20px 20px 20px 85px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--primary);
+}

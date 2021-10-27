@@ -1,0 +1,38 @@
+.toggler {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  padding: 11px 5px;
+  border-radius: 3px;
+  border: 1px solid var(--border-grey);
+  box-sizing: border-box;
+
+  .value {
+    width: 50%;
+    cursor: pointer;
+    color: var(--orange);
+    padding: 0 25px;
+
+    &.active {
+      color: white;
+      z-index: 1;
+    }
+  }
+
+  #fill {
+    background-color: var(--orange);
+    position: absolute;
+    width: 50%;
+    height: calc(100% - 5px);
+    transition: 250ms all ease-in-out;
+
+    &.end {
+      left: calc(50% - 3px);
+    }
+
+    &.start {
+      left: 3px;
+    }
+  }
+}

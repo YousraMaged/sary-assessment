@@ -1,0 +1,170 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Captain America",
+      "superpowers": [
+        "Strength",
+        "agility",
+        "stamina",
+        "healing ability",
+        "expert tactician",
+        "martial artist",
+        "indestructible shield"
+      ],
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Black Panther",
+      "superpowers": [
+        "Enhanced senses",
+        "superhuman condition",
+        "speed",
+        "martial artist",
+        "magical resistance",
+        "Vibranium-assisted outfit"
+      ],
+      "rating": 2
+    },
+    {
+      "id": 3,
+      "name": "Killmonger",
+      "superpowers": [
+        "Strength",
+        "expert tactician and manipulator",
+        "peak-level hunter",
+        "genius-level intellect"
+      ],
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "name": "Groot",
+      "superpowers": [
+        "Superhuman strength to lift and break",
+        "a durability of dense wood",
+        "ability to extend body",
+        "generate flowers",
+        "light generation",
+        "regenerative healing factor",
+        "talented combatant"
+      ],
+      "rating": 1
+    },
+    {
+      "id": 5,
+      "name": "Hawkeye",
+      "superpowers": [
+        "Marksmanship",
+        "assassin",
+        "marital artist",
+        "knife & sword master and expert pilot"
+      ],
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Black Widow",
+      "superpowers": [
+        "Master spy & assassin",
+        "martial artist",
+        "armed combatant",
+        "skills in espionage",
+        "infiltration",
+        "disguise and deception",
+        "manipulation & hacking"
+      ],
+      "rating": 3
+    },
+    {
+      "id": 6,
+      "name": "The Winter Soldier",
+      "superpowers": [
+        "Energy blasts",
+        "superhuman strength",
+        "martial artist",
+        "speed",
+        "healing",
+        "stamina"
+      ],
+      "rating": 3
+    },
+    {
+      "id": 7,
+      "name": "Star-Lord",
+      "superpowers": [
+        "Strength",
+        "flight via jet boots",
+        "master problem-solver",
+        "cybernetic enhancements",
+        "space travel",
+        "Element Gun projects air, earth, fire, water"
+      ],
+      "rating": 4
+    },
+    {
+      "id": 8,
+      "name": "Wolverine",
+      "superpowers": [
+        "Reflexes",
+        "agility",
+        "senses",
+        "retractable adamantium-plated bone claws",
+        "regeneration",
+        "indestructible skeleton"
+      ],
+      "rating": 3
+    },
+    {
+      "id": 9,
+      "name": "Iron Man",
+      "superpowers": [
+        "Genius-level intellect",
+        "multiple powered armor suits",
+        "ability to fly"
+      ],
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "name": "Ultron",
+      "superpowers": [
+        "Strength",
+        "speed",
+        "stamina",
+        "genius-level artificial intelligence",
+        "makes calculations with superhuman speed and accuracy",
+        "nigh indestructibility via adamantium bodies",
+        "flight"
+      ],
+      "rating": 3
+    },
+    {
+      "id": 11,
+      "name": "Scarlet Witch",
+      "superpowers": [
+        "Telekinesis",
+        "telepathy",
+        "teleportation",
+        "flight",
+        "reality, time, fire, weather and energy manipulation"
+      ],
+      "rating": 3
+    },
+    {
+      "id": 12,
+      "name": "Vision",
+      "superpowers": [
+        "Superhuman strength & durability",
+        "density manipulation",
+        "flight",
+        "energy blasts",
+        "synthetic material generation",
+        "mental & computer interaction",
+        "genius-level intellect & master combatant"
+      ],
+      "rating": 3
+    }
+  ]
+}

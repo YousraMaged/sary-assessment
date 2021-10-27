@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 15px 35px;
+
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Luckiest Guy";
+    margin: 0;
+    font-size: 40px;
+  }
+
+  fa-icon {
+    font-size: 85px;
+    margin-right: 20px;
+    color: var(--accent);
+  }
+
+  h1,
+  i {
+    transform: rotate(-5deg);
+  }
+}

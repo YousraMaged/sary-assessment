@@ -1,0 +1,8 @@
+<article>
+    <span class="avatar">
+        <fa-icon [icon]="faMask"></fa-icon>
+    </span>
+    <a [routerLink]="hero.id">{{hero.name}}</a>
+    <span class="powers">{{hero.superpowers}}</span>
+    <app-rating [hero]="hero"></app-rating>
+</article>
