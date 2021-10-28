@@ -19,14 +19,14 @@ export class HeroesService {
   getHeroes(): void {
     this.http.getHeroes().subscribe((heroes: Hero[]) => {
       this._heroes$.next(heroes);
-    }, err => console.log(err));
+    });
   }
 
   getHero(id: string): Promise<Hero> {
     return this.http.getHero(id).toPromise();
   }
 
-  sortHeroes(key: ('name' | 'rating')): void {
+  sortHeroes(key: ('name' | 'rating') = 'name'): void {
     this.http.sortHeroes(key).subscribe((heroes: Hero[]) => {
       this._heroes$.next(heroes);
     });

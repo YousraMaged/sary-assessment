@@ -21,7 +21,7 @@ export class HeroesListComponent implements OnInit {
   }
 
   getHeroes() {
-    this.heroesService.getHeroes();
+    this.heroesService.sortHeroes();
   }
 
 }

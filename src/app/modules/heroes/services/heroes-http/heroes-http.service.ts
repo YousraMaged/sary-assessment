@@ -20,7 +20,7 @@ export class HeroesHttpService {
     return this.api.get<Hero>(`${environment.baseUrl}/heroes/${id}`);
   }
 
-  sortHeroes(key: ('name' | 'rating')): Observable<Hero[]> {
+  sortHeroes(key: ('name' | 'rating') = 'name'): Observable<Hero[]> {
     return this.getHeroes().pipe(
       tap(heroes => heroes.sort((a, b) => a[key] > b[key] ? 1 : -1)),
       tap(heroes => key === 'rating' ? heroes.reverse() : heroes)
